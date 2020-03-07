@@ -1,0 +1,43 @@
+#showBox {
+  min-height: 150px;
+  background: #eee;
+}
+.preview_img {
+  width: 150px;
+}
+.msg {
+  position: absolute;
+  z-index: 1000;
+  opacity: 0;
+  top: 1rem;
+  right: 30px;
+}
+input[type='text'] {
+  min-width: 200px;
+  border: none;
+  border-bottom: 1px solid rgb(161, 161, 161);
+  text-indent: 0.5rem;
+  background-color: rgb(255, 183, 183);
+}
+input[type='text']:valid {
+  background-color: transparent;
+}
+input:focus {
+  outline: none;
+}
+label.input-file {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 2.5rem;
+  color: #ffffffa4;
+  background-color: rgb(189, 223, 189);
+  background-position: center center;
+  background-size: cover;
+}
+input[type=file] {
+  display: none;
+}

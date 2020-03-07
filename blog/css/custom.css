@@ -1,0 +1,23 @@
+.logo-img {
+  width: 100px;
+}
+
+a.logo {
+  margin-top: 6px;
+}
+
+.bg-tea {
+  background-color: #1d3524 !important;
+}
+
+.bg-tea-secondary {
+  background-color: #3f4c3f !important;
+}
+
+.bg-tea-light {
+  background-color: #4a904c !important;
+}
+
+#main-content {
+  min-height: calc(100vh - 71px);
+}

@@ -1,0 +1,76 @@
+body{
+  font-family: Microsoft JhengHei !important;
+}
+.logo-img {
+  width: 100px;
+}
+a.logo {
+  margin-top: 6px;
+}
+.bg-tea {
+  background-color: #1d3524!important;
+}
+.bg-tea-secondary {
+  background-color: #3f4c3f!important;
+}
+.bg-tea-light {
+  background-color: #4a904c!important;
+}
+#main-content{
+  min-height: calc(100vh - 72px);
+}
+.table-title{
+  padding: 10px 7px;
+  color: #fff;   
+  background-color: #333;
+  border-radius: 4px;  
+}
+.table-title  h4{
+  margin: 0;      
+}
+.custom-table{
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.custom-table tr td:last-child{
+  color: #333;
+}
+.custom-table .td-white{
+  color: #fff !important;
+}
+.custom-table input,
+.custom-table select,
+.custom-table textarea{
+  border-radius: 4px;
+  border: none;
+  padding: 3px 7px;
+  outline-color: #4a904c;
+}
+.custom-table label.update-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  margin-bottom: 0;
+}
+.custom-table label.update-img div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  cursor: pointer;
+  color:#fff;
+  background-color: #4a904c;
+  border-radius: 4px;
+  z-index: 2;
+}
+.custom-table label.update-img input{
+  pointer-events: none;
+  position: absolute;
+  left: 25px;
+  z-index: 1;
+  outline: none;
+}
